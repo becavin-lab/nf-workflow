@@ -45,6 +45,6 @@ process pyTask {
         y = y+ float(items[1])
         lines = lines+1
  
-    print "avg: %s - %s" % ( x/lines, y/lines )
+    print("avg: %s - %s"%(x/lines, y/lines ))
     '''
 }
